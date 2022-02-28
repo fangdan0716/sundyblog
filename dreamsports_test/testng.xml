@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="测试套汇总">
+    <test name = "gDemo1">
+<!--        <parameter name="XXX" value="XXX" />-->
+    <classes>
+        <class name="testHelloworld"></class>
+    </classes>
+    </test>
+    <suite-files>
+        <!--<suite-file path="testng_OTT.xml"></suite-file>-->
+        <suite-file path="testng.xml"></suite-file>
+    </suite-files>
+</suite>
