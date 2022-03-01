@@ -30,6 +30,7 @@ public class sjn {
             driver.navigate ().refresh ();
 
         }
+
     }
 
     public static void main(String[] args) throws InterruptedException {

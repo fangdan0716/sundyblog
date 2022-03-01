@@ -49,7 +49,7 @@ public class pull_up {
             driver.findElement (By.id ("com.rongmeng.sports.screen:id/ed_password")).sendKeys ("dabai521");
             driver.hideKeyboard ();
             driver.findElement (By.id ("com.rongmeng.sports.screen:id/btn_login")).click ();
-            driver.findElement (By.xpath ("//*[@text=\"" + sportsName + "\"]")).click ();//获取跳绳
+            driver.findElement (By.xpath ("//*[@text=\"" + sportsName + "\"]")).click ();//获取引体向上
             driver.findElement (By.id ("com.rongmeng.sports.screen:id/ql_next")).click ();//下一步
             driver.findElement (By.xpath ("//*[@text=\"" + nextname + "\"]")).click ();//下一步
             driver.findElement (By.xpath ("//*[@text=\"" + save + "\"]")).click ();//保存
@@ -74,7 +74,7 @@ public class pull_up {
         }
         while (true) {
             Thread.sleep (666);
-            Assert.assertTrue (Integer.parseInt (driver.findElementById ("com.rongmeng.sports.screen:id/time_tv").getText ()) >= 50);
+            Assert.assertTrue (Integer.parseInt (driver.findElementById ("com.rongmeng.sports.screen:id/time_tv").getText ()) >= 5);
             driver.findElementById ("com.rongmeng.sports.screen:id/tv_next");
             //s.webdemo1 ();
         }

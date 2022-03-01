@@ -72,7 +72,7 @@ public class sit_ups {
 //        driver.findElement (By.xpath ("//*[@text=\"" + guifan + "\"]")).click ();
 //        driver.findElementById ("com.rongmeng.sports.screen:id/rb_difficulty_2").click ();
         Thread.sleep (60000);
-
+        Assert.assertTrue (Integer.parseInt (driver.findElementById ("com.rongmeng.sports.screen:id/time_tv").getText ()) >= 2);
        // s.webdemo1 ();
     }
 }
