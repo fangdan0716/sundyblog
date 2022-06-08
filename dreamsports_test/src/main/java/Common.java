@@ -36,7 +36,7 @@ public class Common {
         int width = size.width;
         new TouchAction(driver)
                 .longPress(PointOption.point(width-100, height / 2))
-                .moveTo(PointOption.point(100, height / 2)).release().perform();
+                .moveTo(PointOption.point(20, height / 2)).release().perform();
     }
 
     public void SwipeRight(AndroidDriver driver) {

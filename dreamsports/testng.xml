@@ -4,7 +4,7 @@
 <test name = "gDemo1">
     <!--        <parameter name="XXX" value="XXX" />-->
     <classes>
-        <class name="pull_up"></class>
+        <class name="Basic"></class>
     </classes>
 </test>
 <suite-files>

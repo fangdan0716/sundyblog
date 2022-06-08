@@ -1,0 +1,69 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://D:/study/javaProj/lib/logback-classic-1.2.3.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-jsr223-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-xml-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-templates-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-cli-commons-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-cli-picocli-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-sql-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-ant-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-jsr223-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-macro-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-test-junit5-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-macro-library-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-xml-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/logback-core-1.2.3.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-groovydoc-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-nio-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-sql-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-swing-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-groovysh-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-datetime-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-testng-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-ginq-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-console-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-jmx-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-macro-library-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-servlet-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-docgenerator-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-json-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-astbuilder-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/slf4j-api-1.7.26.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-servlet-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-console-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-ginq-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-typecheckers-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-jmx-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-swing-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-typecheckers-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-astbuilder-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-dateutil-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-contracts-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-datetime-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-macro-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-nio-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-testng-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-templates-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-test-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-json-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-test-junit5-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-toml-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-cli-picocli-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-groovydoc-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-groovysh-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-docgenerator-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-contracts-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-ant-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-test-4.0.0-rc-2-sources.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-cli-commons-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-toml-4.0.0-rc-2.jar!/" />
+      <root url="jar://D:/study/javaProj/lib/groovy-dateutil-4.0.0-rc-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

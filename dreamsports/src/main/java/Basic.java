@@ -28,8 +28,8 @@ public class Basic {
         DesiredCapabilities des = new DesiredCapabilities ();
         des.setCapability ("platformName", "Android");//平台名称
         des.setCapability ("platformVersion", "10");//手机操作系统版本
-        des.setCapability ("deviceName", "A7YFBB1518002080");//使用的手机类型或模拟器类型  UDID
-        des.setCapability ("udid", "A7YFBB1518002080");
+        des.setCapability ("deviceName", "VNX9X20420K00459");//使用的手机类型或模拟器类型  UDID
+        des.setCapability ("udid", "VNX9X20420K00459");
         des.setCapability ("appPackage", "com.rongmeng.sports.screen");//App安装后的包名,注意与原来的CalcTest.apk不一样
         des.setCapability ("appActivity", "com.dreamsport.sports.ui.activity.StartActivity");//app测试人员常常要获取activity，进行相关测试,后续会讲到
         des.setCapability ("noReset", true);

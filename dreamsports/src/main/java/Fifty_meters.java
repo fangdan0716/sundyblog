@@ -94,7 +94,7 @@ public class Fifty_meters {
         //开始测试
         driver.findElement (By.id ("com.rongmeng.sports.screen:id/btn_go")).click ();
         if (driver.getPageSource ().contains ("com.rongmeng.sports.screenreen:id/ql_next")) {
-            driver.findElement (By.id ("com.rongmeng.sports.screen:id/ql_next")).click ();
+            driver.findElment (By.id ("com.rongmeng.sports.screen:id/ql_next")).click ();
         }
         Thread.sleep (2000);
 
