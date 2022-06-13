@@ -104,6 +104,29 @@ public class Settings {
         LOGGER.info("点击本地");
         driver.findElement(By.id("com.rongmeng.sports.screen:id/rb_local")).click();
     }
+    //视频流地址设置
+    public static void settingsVideoStream(AndroidDriver driver,String address,String port) throws InterruptedException, MalformedURLException {
+        LOGGER.info("点击设置");
+        driver.findElement(By.id("com.rongmeng.sports.screen:id/iv_setting")).click();
+        LOGGER.info("点击摄像头管理");
+        driver.findElement(By.id("com.rongmeng.sports.screen:id/rb_camera_info")).click();
+        Thread.sleep(100);
+
+        LOGGER.info("点击视频流");
+        driver.findElement(By.id("com.rongmeng.sports.screen:id/rb_rmtp")).click();
+        Thread.sleep(100);
+        LOGGER.info("添加摄像头");
+        driver.findElement(By.id("com.rongmeng.sports.screen:id/tv_camera_add")).click();
+        Thread.sleep(100);
+        LOGGER.info("输入视频流地址");
+        driver.findElement(By.id("com.rongmeng.sports.screen:id/et_address")).sendKeys(address);
+        Thread.sleep(100);
+        LOGGER.info("输入视频流读取间的毫秒数");
+        driver.findElement(By.id("com.rongmeng.sports.screen:id/et_port")).sendKeys(port);
+        LOGGER.info("确定");
+        driver.findElement(By.id("com.rongmeng.sports.screen:id/btn_confirm")).click();
+
+    }
 
 //服务设置
     public static void settingsServiceInfo(AndroidDriver driver) throws InterruptedException, MalformedURLException {
@@ -181,7 +204,14 @@ public class Settings {
 
 
 
-//    public static void main(String[] args) throws InterruptedException, MalformedURLException{
-//        settings_parm("192.168.110.165");
-//    }
+    public static void main(String[] args) throws InterruptedException, MalformedURLException{
+        String platformName="Android";
+        String platformVersion="10";
+        String deviceName="A7YFBB1628001082";//VNX9X20420K00639
+        String appPackage="com.rongmeng.sports.screen";
+         String appActivity="com.dreamsport.sports.ui.activity.StartActivity" ;
+        AndroidDriver driver= DriverInfo.DriverInfo(platformName,platformVersion,deviceName,appPackage,appActivity);
+
+        settingsVideoStream(driver,"sdcard/1.mp4","30");
+    }
 }
