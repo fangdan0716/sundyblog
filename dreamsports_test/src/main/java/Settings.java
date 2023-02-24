@@ -204,14 +204,14 @@ public class Settings {
 
 
 
-    public static void main(String[] args) throws InterruptedException, MalformedURLException{
-        String platformName="Android";
-        String platformVersion="10";
-        String deviceName="A7YFBB1628001082";//VNX9X20420K00639
-        String appPackage="com.rongmeng.sports.screen";
-         String appActivity="com.dreamsport.sports.ui.activity.StartActivity" ;
-        AndroidDriver driver= DriverInfo.DriverInfo(platformName,platformVersion,deviceName,appPackage,appActivity);
-
-        settingsVideoStream(driver,"sdcard/1.mp4","30");
-    }
+//    public static void main(String[] args) throws InterruptedException, MalformedURLException{
+//        String platformName="Android";
+//        String platformVersion="10";
+//        String deviceName="A7YFBB1628001082";//VNX9X20420K00639
+//        String appPackage="com.rongmeng.sports.screen";
+//         String appActivity="com.dreamsport.sports.ui.activity.StartActivity" ;
+//        AndroidDriver driver= DriverInfo.DriverInfo(platformName,platformVersion,deviceName,appPackage,appActivity);
+//
+//        settingsVideoStream(driver,"sdcard/1.mp4","30");
+//    }
 }

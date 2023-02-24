@@ -6,11 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="webJava_servlet" />
+        <module name="interfaceStudy" />
         <module name="dreamsports_test" />
+        <module name="yuntiyu" />
+        <module name="yunManual" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dreamsports_test" target="1.7" />
+      <module name="interfaceStudy" target="8" />
+      <module name="webJava_servlet" target="1.8" />
+      <module name="yunManual" target="1.8" />
+      <module name="yuntiyu" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

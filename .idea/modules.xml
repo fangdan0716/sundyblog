@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dreamsports_test/dreamsports_test.iml" filepath="$PROJECT_DIR$/dreamsports_test/dreamsports_test.iml" />
-      <module fileurl="file://D:/study/javaProj/javaProj.iml" filepath="D:/study/javaProj/javaProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../interfaceStudy/interfaceStudy.iml" filepath="$PROJECT_DIR$/../interfaceStudy/interfaceStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../javaProj/javaProj.iml" filepath="$PROJECT_DIR$/../javaProj/javaProj.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/rmqa_tice.iml" filepath="$PROJECT_DIR$/.idea/rmqa_tice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../webJava_servlet/webJava_servlet.iml" filepath="$PROJECT_DIR$/../webJava_servlet/webJava_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunManual/yunManual.iml" filepath="$PROJECT_DIR$/yunManual/yunManual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../yuntiyu/yuntiyu.iml" filepath="$PROJECT_DIR$/../yuntiyu/yuntiyu.iml" />
     </modules>
   </component>
 </project>

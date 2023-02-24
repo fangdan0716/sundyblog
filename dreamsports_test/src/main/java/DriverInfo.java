@@ -27,10 +27,10 @@ public class DriverInfo {
 
     }
 
-    public static void main(String[] args) throws MalformedURLException, InterruptedException {
-        String platformName="Android",platformVersion="10",deviceName="A7YFBB1628001082",//VNX9X20420K00639
-                appPackage="com.rongmeng.sports.screen",appActivity="com.dreamsport.sports.ui.activity.StartActivity" ;
-        AndroidDriver driver = DriverInfo(platformName,platformVersion,deviceName,appPackage,appActivity);
-
-    }
+//    public static void main(String[] args) throws MalformedURLException, InterruptedException {
+//        String platformName="Android",platformVersion="10",deviceName="A7YFBB1628001082",//VNX9X20420K00639
+//                appPackage="com.rongmeng.sports.screen",appActivity="com.dreamsport.sports.ui.activity.StartActivity" ;
+//        AndroidDriver driver = DriverInfo(platformName,platformVersion,deviceName,appPackage,appActivity);
+//
+//    }
 }

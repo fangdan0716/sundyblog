@@ -24,6 +24,7 @@ public class basketballFirst {
             e.printStackTrace();
         } catch (MalformedURLException e) {
             e.printStackTrace();
+
         }
     }
     public static void basketballFirstSport(String sportsName) throws InterruptedException, MalformedURLException {

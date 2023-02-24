@@ -1,9 +1,12 @@
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import javafx.scene.input.SwipeEvent;
 import org.openqa.selenium.By;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.net.MalformedURLException;
+import java.util.List;
 import java.util.NoSuchElementException;
 
 public class ChangeProj1 {
@@ -21,6 +24,11 @@ public class ChangeProj1 {
                     while (driver.getPageSource().contains(sportsName)==false){
                         cm.SwipeLeft(driver);//滑动向左
                     }
+//                    if(driver.getPageSource().contains(sportsName)==false){
+//                        while(driver.getPageSource().contains(sportsName)==false) {
+//                            cm.SwipeRight(driver);//滑动向右
+//                        }
+//                    }
                 }catch (NoSuchElementException e){
                     System.out.println(e);
                     //LOGGER.info(e);
@@ -50,9 +58,34 @@ public class ChangeProj1 {
                 LOGGER.info("点击更换项目，进入请选择项目页面");
                 driver.findElement(By.id("com.rongmeng.sports.screen:id/btn_change_model")).click();
                 try {
-                    while (driver.getPageSource().contains(sportsName)==false){
-                        cm.SwipeLeft(driver);//滑动向左
+
+                    List<MobileElement> infolists1 = driver.findElementsById("com.rongmeng.sports.screen:id/tv_name");
+                    String originalinfo = infolists1.get(infolists1.size() - 1).getAttribute("text");
+                    System.out.println(originalinfo);
+                    Thread.sleep(1000);
+                    boolean isSwipe = true;
+                    String currentinfo;
+                    while (isSwipe) {
+                        cm.SwipeLeft(driver);
+                        List<MobileElement> infolists2 = driver.findElementsById("com.rongmeng.sports.screen:id/tv_name");
+                        currentinfo= infolists2.get(infolists2.size() - 1).getAttribute("text");
+                        if (!currentinfo.equals(originalinfo))
+                            originalinfo= currentinfo;
+                        else {
+                            isSwipe = false;
+                            System.out.println(currentinfo);
+                            System.out.println("This is the buttom");
+                        }
                     }
+//                    while (driver.getPageSource().contains(sportsName)==false){
+//
+//                        cm.SwipeLeft(driver);//滑动向左
+//                    }
+//                    if(driver.getPageSource().contains(sportsName)==false) {
+//                        while (driver.getPageSource().contains(sportsName) == false) {
+//                            cm.SwipeRight(driver);//滑动向右
+//                        }
+//                    }
                 }catch (NoSuchElementException e){
                     System.out.println(e);
                     //LOGGER.info(e);
@@ -85,13 +118,13 @@ public class ChangeProj1 {
 
 
     }
-//    public static void main(String[] args) throws MalformedURLException, InterruptedException {
-//        //DriverInfo driverInfo = new DriverInfo();
-//        String platformName="Android",platformVersion="10",deviceName="A7YFBB1514000232",//VNX9X20420K00639
-//                appPackage="com.rongmeng.sports.screen",appActivity="com.dreamsport.sports.ui.activity.StartActivity" ;
-//        AndroidDriver driver=DriverInfo.DriverInfo(platformName,platformVersion,deviceName,appPackage,appActivity);
-//        changeProj(driver,"游泳200米");
-//
-//    }
+    public static void main(String[] args) throws MalformedURLException, InterruptedException {
+        //DriverInfo driverInfo = new DriverInfo();
+        String platformName="Android",platformVersion="10",deviceName="A7YFBB1518002112",//VNX9X20420K00639
+                appPackage="com.rongmeng.sports.screen",appActivity="com.dreamsport.sports.ui.activity.StartActivity" ;
+        AndroidDriver driver=DriverInfo.DriverInfo(platformName,platformVersion,deviceName,appPackage,appActivity);
+        changeProj(driver,"游泳200米");
+
+    }
 
 }
